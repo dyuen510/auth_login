@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import LoginButton from './components/Auth/Login';
+import LoginButton from './components/Auth/LoginButton';
+import LogoutButton from './components/Auth/LogoutButton';
+
 
 function App() {
   return (
-    <div className="App">
+    <div>
         <LoginButton />
+        <LogoutButton />
     </div>
   );
 }
