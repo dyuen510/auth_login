@@ -13,8 +13,10 @@ function App() {
 
   return (
     <div>
+      <div className ='log'>
         <LoginButton />
         <LogoutButton />
+        </div>
         <UserInfo />
     </div>
   );
