@@ -1,23 +1,21 @@
 import React from 'react';
 import './App.css';
-import LoginButton from './components/Auth/LoginButton';
-import LogoutButton from './components/Auth/LogoutButton';
-import UserInfo from './components/Auth/UserInfo';
-import { useAuth0 } from '@auth0/auth0-react';
+
+import { useAuth0 } from  '@auth0/auth0-react';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+
 
 
 function App() {
-  const { isLoading } = useAuth0();
+  const {isLoading} = useAuth0();
 
-  if (isLoading) return <div>Loading...</div>
-
+  if(isLoading) return <h2>Loading....</h2>
   return (
     <div>
-      <div className ='log'>
-        <LoginButton />
-        <LogoutButton />
-        </div>
-        <UserInfo />
+      <Navbar />
+      <Home />
     </div>
   );
 }
