@@ -1,0 +1,62 @@
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.primary {
+    background-color: rgb(81, 81, 255);
+    color: white;
+}
+
+.primary:hover {
+    background-color: rgb(114, 114, 253);
+}
+.danger {
+    background-color: red;
+    color: white;
+}
+
+.danger:hover {
+    background-color: rgb(255, 83, 83);
+}
+.success {
+    background-color: green;
+    color: white;
+}
+
+.success:hover {
+    background-color: rgb(0, 145, 0);
+}
+.info {
+    background-color: rgb(0, 163, 163);
+    color: white;
+}
+
+.info:hover {
+    background-color: rgb(0, 189, 189);
+}
+.default {
+
+    background-color:rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+}
+
+.default:hover {
+    background-color: gainsboro;
+}
+
+.small {
+    padding: 6px 9px 6px 9px;
+    font-size: 123x;
+}
+.medium {
+    padding: 8px 10px 8px 10px;
+    font-size: 14px;
+}
+.large {
+    padding: 10px 15px 10px 15px;
+    font-size: 16px;
+}

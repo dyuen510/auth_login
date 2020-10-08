@@ -8,13 +8,13 @@ body {
   padding: 2rem;
 }
 
-button {
+/* button {
   margin: 2rem 0;
   padding: 1rem 2rem;
   width:120px;
   cursor:pointer;
   border-radius: 25px;
-}
+} */
 
 .log {
   float:right;
